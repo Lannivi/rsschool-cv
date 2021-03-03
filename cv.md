@@ -38,3 +38,7 @@ alert (number);
   <summary>Click to expand</summary>
   <blockquote><i>at the development stage</i></blockquote>
 </details>
+
+## English Level
+
+A2 (Pre-intermediate)
