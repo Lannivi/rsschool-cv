@@ -1,0 +1,177 @@
+@charset "UTF-8";
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap");
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 18px;
+  font-family: "PT serif";
+  color: #07012f;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 28px;
+  font-weight: inherit;
+  color: #030656;
+  margin-bottom: 20px;
+}
+
+/* ------ */
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+header {
+  /* margin: 27px 0 0 0; */
+  background-color: rgba(26, 75, 132, 0.07);
+}
+
+.header-block {
+  min-height: 220px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-photo {
+  margin-left: 20px;
+  width: 200px;
+  height: auto;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header-info {
+  padding: 50px 10px 0 0;
+}
+
+h1 {
+  font-size: 58px;
+}
+
+.contacts-list {
+  padding-left: 45px;
+  font-size: 16px;
+  line-height: 22px;
+  list-style: none;
+}
+
+.contact {
+  font-weight: 700;
+}
+
+.general {
+  display: flex;
+  justify-content: space-between;
+  min-height: 500px;
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  padding: 50px 20px 50px 20px;
+  background-color: rgba(26, 75, 132, 0.03);
+  list-style-position: inside;
+  line-height: 28px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px 0;
+  width: 70%;
+}
+
+.about {
+  padding: 0 0 0 20px;
+}
+
+.code-snippet {
+  padding: 20px 0 20px 20px;
+  background-color: rgba(26, 75, 132, 0.03);
+}
+
+pre {
+  font-size: 14px;
+}
+
+.practice {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 10px 20px;
+}
+
+.experience,
+.education {
+  flex-grow: 1;
+}
+
+.practice-text {
+  font-style: italic;
+  font-size: 14px;
+}
+
+footer {
+  background-color: rgba(26, 75, 132, 0.07);
+}
+
+.footer-block {
+  text-align: center;
+}
+
+a {
+  display: block;
+  padding-top: 10px;
+}
+
+.rsschool img {
+  max-width: 80px;
+}
+.year {
+  font-size: 14px;
+  padding: 5px 0;
+}
